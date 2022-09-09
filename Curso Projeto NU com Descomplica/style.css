@@ -4,11 +4,14 @@ body {
 
 .caixa{
     text-align: center;
+    border-radius: 8px;
 }
 
 .content {
+    text-align: center;
     color: aliceblue;
     height: 100%;
+    border-radius: 8px;
 }
 
 img {
@@ -16,15 +19,14 @@ img {
 }
 
 #name {
-    width: 190px;
-    height: 34px;
+    width: 250px;
+    height: 40px;
     border-radius: 8px;
 }
 
 .primary {
     background-color: rgb(125, 236, 125);
-    width: 80px;
-    height: 40px;
+    padding: 15px 20px;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -32,8 +34,7 @@ img {
 .secundary {
     background-color: rgb(248, 39, 39);
     color: aliceblue;
-    width: 80px;
-    height: 40px;
+    padding: 15px 25px;
     border-radius: 8px;
     cursor: pointer;
 }
