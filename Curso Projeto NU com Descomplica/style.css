@@ -8,6 +8,11 @@ body {
 
 .content {
     color: aliceblue;
+    height: 100%;
+}
+
+img {
+    border-radius: 5px;
 }
 
 #name {
