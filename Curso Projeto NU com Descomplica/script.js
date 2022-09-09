@@ -10,11 +10,9 @@ let buttonPrimary = document.querySelector('.primary');
 buttonPrimary.addEventListener('click', inputValor)
 
 function removerValor() {
-    let inputTexto = document.querySelector('#name')
-    let inputValue = inputTexto.value
+    let inputText = document.querySelector('#name').value = ""
 
-    let mostrarTexto = document.querySelector('#resultado')
-    mostrarTexto.innerHTML = ""
+    document.querySelector('#resultado').innerHTML = ""
 
 }
 let buttonSecundary = document.querySelector('.secundary');
